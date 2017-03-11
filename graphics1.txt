@@ -1,0 +1,12 @@
+#includestdio.h
+#includeconio.h
+#includegraphics.h
+void main()
+ {
+	int gd=DETECT,gm;
+	initgraph(&gd,&gm,CTURBOC3BGI);
+	putpixel(220,420,RED);
+	getch();
+	closegraph();
+
+ }
